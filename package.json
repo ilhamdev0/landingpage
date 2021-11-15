@@ -1,0 +1,10 @@
+{
+    "private": "true",
+    "scripts": {},
+    "engines": {
+        "node": ">=12",
+        "npm": ">=6"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
