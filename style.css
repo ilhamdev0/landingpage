@@ -1,0 +1,13 @@
+.carousel-control-prev,.carousel-control-next{
+    width: unset;
+}
+
+.card {
+    /* overflow: hidden; */
+    height: 35ch;
+}
+
+.img-offset {
+    margin-top: 15ch;
+    margin-left: 12ch;
+}
