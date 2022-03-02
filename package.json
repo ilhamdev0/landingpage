@@ -1,10 +1,16 @@
 {
     "private": "true",
-    "scripts": {},
+    "scripts": {
+        "dev": "reload"
+    },
     "engines": {
         "node": ">=12",
         "npm": ">=6"
     },
-    "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {
+        "reload": "^3.2.0"
+    },
+    "dependencies": {
+        "bootstrap": "^5.1.3"
+    }
 }
