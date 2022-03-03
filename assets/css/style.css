@@ -1,0 +1,61 @@
+.text-primary {
+    color: hsl(270, 100%, 30%) !important;
+}
+
+.bg-primary {
+    background-color: hsl(270, 100%, 30%) !important;
+}
+
+.btn-primary {
+    border-color: hsl(270, 100%, 30%) !important;
+    background-color: hsl(270, 100%, 30%) !important;
+}
+
+.carousel-control-prev,.carousel-control-next{
+    width: unset;
+}
+
+.card-shop {
+    height: 25ch;
+    position: relative;
+}
+
+.card-info {
+    height: 35ch;
+    position: relative;
+}
+
+.card-food-header {
+    height: 42ch;
+    position: relative;
+}
+
+.card-food {
+    height: 42ch;
+}
+
+.card .bi-heart {
+    color: red;
+}
+
+.img-offset {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    object-fit: fill;
+}
+
+.badge-trending {
+    top: 3ch;
+    left: 7.5ch;
+}
+
+.badge-info-1 {
+    top: 18ch;
+    left: 14ch;
+}
+
+.badge-info-2 {
+    top: 25.5ch;
+    left: 12ch;
+}
