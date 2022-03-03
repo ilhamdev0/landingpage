@@ -2,12 +2,21 @@
     width: unset;
 }
 
-.card {
-    /* overflow: hidden; */
-    height: 35ch;
+.card-shop {
+    overflow: hidden;
+    height: 25ch;
+}
+
+.card .bi-heart {
+    color: red;
 }
 
 .img-offset {
-    margin-top: 15ch;
-    margin-left: 12ch;
+    margin-top: 12ch;
+    margin-left: 15ch;
+}
+
+.badge-custom {
+    top: 3ch;
+    left: 7.5ch;
 }

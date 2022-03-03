@@ -7,51 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid p-1">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row">
                         <div class="col-3">
-                            <div class="card bg-dark text-white">
-                                <img src="assets/img/toples.png"
-                                    class="img-fluid rounded-start img-offset" alt="...">
+                            <div class="card card-shop bg-light">
+                                <img src="assets/img/toples.png" class="img-fluid rounded-start img-offset" alt="...">
                                 <div class="card-img-overlay">
-                                    <h5 class="card-title">Food Ingredients</h5>
+                                    <h5 class="card-title h3">Food Ingredients</h5>
                                     <p class="card-text">Shop</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-3">
-                            <div class="card bg-dark text-white">
-                                <img src="assets/img/botol.png"
-                                    class="img-fluid rounded-start img-offset" alt="...">
+                            <div class="card card-shop bg-light">
+                                <img src="assets/img/botol.png" class="img-fluid rounded-start img-offset" alt="...">
                                 <div class="card-img-overlay">
-                                    <h5 class="card-title">Cold Beverages</h5>
+                                    <h5 class="card-title h3">Cold Beverages</h5>
                                     <p class="card-text">Shop</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-3">
-                            <div class="card bg-dark text-white">
-                                <img src="assets/img/package.png"
-                                    class="img-fluid rounded-start img-offset" alt="...">
+                            <div class="card card-shop bg-light">
+                                <img src="assets/img/package.png" class="img-fluid rounded-start img-offset" alt="...">
                                 <div class="card-img-overlay">
-                                    <h5 class="card-title">To-go Packaging</h5>
+                                    <h5 class="card-title h3">To-go Packaging</h5>
                                     <p class="card-text">Shop</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-3">
-                            <div class="card bg-dark text-white">
-                                <img src="assets/img/sponge.png"
-                                    class="img-fluid rounded-start img-offset" alt="...">
+                            <div class="card card-shop bg-light">
+                                <img src="assets/img/sponge.png" class="img-fluid rounded-start img-offset" alt="...">
                                 <div class="card-img-overlay">
-                                    <h5 class="card-title">Cleaning Supplies</h5>
+                                    <h5 class="card-title h3">Cleaning Supplies</h5>
                                     <p class="card-text">Shop</p>
                                 </div>
                             </div>
@@ -59,11 +56,10 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">                       
+                    <div class="row">
                         <div class="col-md-3">
-                            <div class="card bg-dark text-white">
-                                <img src="assets/img/botol.png"
-                                    class="img-fluid rounded-start img-offset" alt="...">
+                            <div class="card card-shop bg-light">
+                                <img src="assets/img/botol.png" class="img-fluid rounded-start img-offset" alt="...">
                                 <div class="card-img-overlay">
                                     <h5 class="card-title">Cold Beverages</h5>
                                     <p class="card-text">Shop</p>
@@ -71,9 +67,8 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="card bg-dark text-white">
-                                <img src="assets/img/toples.png"
-                                    class="img-fluid rounded-start img-offset" alt="...">
+                            <div class="card card-shop bg-light">
+                                <img src="assets/img/toples.png" class="img-fluid rounded-start img-offset" alt="...">
                                 <div class="card-img-overlay">
                                     <h5 class="card-title">Food Ingredients</h5>
                                     <p class="card-text">Shop</p>
@@ -81,9 +76,8 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="card bg-dark text-white">
-                                <img src="assets/img/sponge.png"
-                                    class="img-fluid rounded-start img-offset" alt="...">
+                            <div class="card card-shop bg-light">
+                                <img src="assets/img/sponge.png" class="img-fluid rounded-start img-offset" alt="...">
                                 <div class="card-img-overlay">
                                     <h5 class="card-title">Cleaning Supplies</h5>
                                     <p class="card-text">Shop</p>
@@ -91,9 +85,8 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="card bg-dark text-white">
-                                <img src="assets/img/package.png"
-                                    class="img-fluid rounded-start img-offset" alt="...">
+                            <div class="card card-shop bg-light">
+                                <img src="assets/img/package.png" class="img-fluid rounded-start img-offset" alt="...">
                                 <div class="card-img-overlay">
                                     <h5 class="card-title">To-go Packaging</h5>
                                     <p class="card-text">Shop</p>
@@ -113,6 +106,139 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+        </div>
+    </div>
+
+    <div class="container-fluid p-1 pt-5">
+        <h3 class="pb-2">Trending Products</h3>
+        <div class="row">
+            <div class="col-2">
+                <div class="card">
+                    <span class="position-absolute translate-middle badge badge-custom px-4 bg-primary">Best Price</span>
+                    <img src="assets/img/food.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row pb-2">
+                            <div class="col-9">
+                                <p class="card-text">Almond Meal</p>
+                            </div>
+                            <div class="col-3">
+                                <i class="bi-heart"></i>
+                            </div>
+                        </div>
+                        <p class="card-text"><strong>$12.30/</strong>100g</p>
+                        <p class="card-text"><small>by Santos</small></p>
+                        <div class="d-grid pb-2">
+                            <button class="btn btn-primary rounded-pill" type="button">Buy Now</button>
+                        </div>
+                        <p class="card-text text-center text-muted">Add to Cart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <img src="assets/img/food.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row pb-2">
+                            <div class="col-9">
+                                <p class="card-text">Almond Meal</p>
+                            </div>
+                            <div class="col-3">
+                                <i class="bi-heart"></i>
+                            </div>
+                        </div>
+                        <p class="card-text"><strong>$12.30/</strong>100g</p>
+                        <p class="card-text"><small>by Santos</small></p>
+                        <div class="d-grid pb-2">
+                            <button class="btn btn-primary rounded-pill" type="button">Buy Now</button>
+                        </div>
+                        <p class="card-text text-center text-muted">Add to Cart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <img src="assets/img/food.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row pb-2">
+                            <div class="col-9">
+                                <p class="card-text">Almond Meal</p>
+                            </div>
+                            <div class="col-3">
+                                <i class="bi-heart"></i>
+                            </div>
+                        </div>
+                        <p class="card-text"><strong>$12.30/</strong>100g</p>
+                        <p class="card-text"><small>by Santos</small></p>
+                        <div class="d-grid pb-2">
+                            <button class="btn btn-primary rounded-pill" type="button">Buy Now</button>
+                        </div>
+                        <p class="card-text text-center text-muted">Add to Cart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <img src="assets/img/food.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row pb-2">
+                            <div class="col-9">
+                                <p class="card-text">Almond Meal</p>
+                            </div>
+                            <div class="col-3">
+                                <i class="bi-heart"></i>
+                            </div>
+                        </div>
+                        <p class="card-text"><strong>$12.30/</strong>100g</p>
+                        <p class="card-text"><small>by Santos</small></p>
+                        <div class="d-grid pb-2">
+                            <button class="btn btn-primary rounded-pill" type="button">Buy Now</button>
+                        </div>
+                        <p class="card-text text-center text-muted">Add to Cart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <img src="assets/img/food.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row pb-2">
+                            <div class="col-9">
+                                <p class="card-text">Almond Meal</p>
+                            </div>
+                            <div class="col-3">
+                                <i class="bi-heart"></i>
+                            </div>
+                        </div>
+                        <p class="card-text"><strong>$12.30/</strong>100g</p>
+                        <p class="card-text"><small>by Santos</small></p>
+                        <div class="d-grid pb-2">
+                            <button class="btn btn-primary rounded-pill" type="button">Buy Now</button>
+                        </div>
+                        <p class="card-text text-center text-muted">Add to Cart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <img src="assets/img/food.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row pb-2">
+                            <div class="col-9">
+                                <p class="card-text">Almond Meal</p>
+                            </div>
+                            <div class="col-3">
+                                <i class="bi-heart"></i>
+                            </div>
+                        </div>
+                        <p class="card-text"><strong>$12.30/</strong>100g</p>
+                        <p class="card-text"><small>by Santos</small></p>
+                        <div class="d-grid pb-2">
+                            <button class="btn btn-primary rounded-pill" type="button">Buy Now</button>
+                        </div>
+                        <p class="card-text text-center text-muted">Add to Cart</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
