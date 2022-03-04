@@ -11,6 +11,12 @@
     background-color: hsl(270, 100%, 30%) !important;
 }
 
+/* icon */
+.bi-box-seam {
+    font-size: 4rem;
+    color: orangered;
+}
+
 .carousel-control-prev,.carousel-control-next{
     width: unset;
 }
@@ -26,12 +32,12 @@
 }
 
 .card-food-header {
-    height: 42ch;
+    /* height: 42ch; */
     position: relative;
 }
 
 .card-food {
-    height: 42ch;
+    /* height: 42ch; */
 }
 
 .card .bi-heart {
