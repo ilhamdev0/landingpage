@@ -22,7 +22,7 @@
 }
 
 .card-shop {
-    height: 25ch;
+    height: 35ch;
     position: relative;
 }
 
@@ -31,9 +31,32 @@
     position: relative;
 }
 
+.card-radius {
+    border-radius: 1.5rem;
+}
+
 .card-food-header {
     /* height: 42ch; */
     position: relative;
+}
+
+.card-food-offset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-beverages-offset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-beverages-offset h3 {
+    position: relative;
+    right: 2ch;
 }
 
 .card-food {
