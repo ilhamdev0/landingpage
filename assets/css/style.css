@@ -89,6 +89,24 @@
     left: 12ch;
 }
 
+/* lg */
+@media screen and (max-width: 992px) {
+    .daftarproduk-lg{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 1rem 0;
+        column-gap: 1rem;
+    }
+
+    .daftarproduk-lg > *{
+        width: unset;
+    }
+
+    .daftarproduk-lg .card{
+        width: 20ch;
+    }
+}
+
 /* md */
 @media screen and (max-width: 768px) {
     .daftarproduk-md{
@@ -96,6 +114,10 @@
         overflow-x: auto;
         padding: 1rem 0;
         column-gap: 1rem;
+    }
+
+    .daftarproduk-md > * {
+        width: unset;
     }
 
     .daftarproduk-md .card{
@@ -106,7 +128,11 @@
         flex-wrap: nowrap;
         overflow-x: auto;
         padding: 1rem 0;
-        column-gap: 20ch;
+        column-gap: 1rem;
+    }
+
+    .boxitem-md > * {
+        width: unset;
     }
 
     .boxitem-md .card {
