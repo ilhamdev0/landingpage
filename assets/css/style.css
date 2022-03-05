@@ -11,6 +11,10 @@
     background-color: hsl(270, 100%, 30%) !important;
 }
 
+.btn-primary:hover {
+    background-color: hsl(270, 100%, 20%) !important;
+}
+
 /* icon */
 .bi-box-seam {
     font-size: 4rem;
