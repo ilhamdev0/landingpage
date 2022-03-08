@@ -1,3 +1,14 @@
+/* icon */
+.bi-box-seam {
+    font-size: 4rem;
+    color: orangered;
+}
+
+.card .bi-heart {
+    color: red;
+}
+
+/* Bootstrap Override */
 .text-primary {
     color: hsl(270, 100%, 30%) !important;
 }
@@ -15,16 +26,12 @@
     background-color: hsl(270, 100%, 20%) !important;
 }
 
-/* icon */
-.bi-box-seam {
-    font-size: 4rem;
-    color: orangered;
-}
-
 .carousel-control-prev,.carousel-control-next{
     width: 10%;
 }
 
+
+/* Custom Class */
 .card-shop {
     height: 35ch;
     position: relative;
@@ -40,7 +47,6 @@
 }
 
 .card-food-header {
-    /* height: 42ch; */
     position: relative;
 }
 
@@ -61,14 +67,6 @@
 .card-beverages-offset h3 {
     position: relative;
     right: 2ch;
-}
-
-.card-food {
-    /* height: 42ch; */
-}
-
-.card .bi-heart {
-    color: red;
 }
 
 .img-offset {
