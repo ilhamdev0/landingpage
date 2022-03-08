@@ -140,7 +140,7 @@
     }
 
     .boxitem-md .card {
-        width: 50ch;
+        width: 45ch;
     }
 }
 
@@ -150,6 +150,14 @@
         flex-wrap: nowrap;
         overflow-x: auto;
         padding: 1rem 0;
-        column-gap: 6rem;
+        column-gap: 5rem
+    }
+
+    .boxitem-xsm > * {
+        width: unset;
+    }
+
+    .boxitem-xsm .card {
+        width: clamp(30ch,31ch,40ch)
     }
 }
