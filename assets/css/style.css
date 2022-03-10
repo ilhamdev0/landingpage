@@ -33,8 +33,9 @@
 
 /* Custom Class */
 .card-shop {
-    height: 35ch;
+    height: 29ch;
     position: relative;
+    border-radius: 1rem;
 }
 
 .card-info {
@@ -53,20 +54,22 @@
 .card-food-offset {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 
 .card-beverages-offset {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-end;
+    padding-top: 30%;
+    padding-right: 5%;
 }
 
-.card-beverages-offset h3 {
+.card-beverages-offset p {
     position: relative;
-    right: 2ch;
+    right: 1.5ch;
 }
 
 .img-offset {
@@ -79,6 +82,8 @@
 .badge-trending {
     top: 3ch;
     left: 7ch;
+    background-color: hsl(0, 30%, 80%);
+    color: black;
 }
 
 .badge-info-1 {
@@ -153,6 +158,10 @@
 
     .boxitem-md .card {
         width: 45ch;
+    }
+
+    .form-custom{
+        margin-top: 3rem;
     }
 }
 
