@@ -27,7 +27,11 @@
 }
 
 .carousel-control-prev,.carousel-control-next{
-    width: 10%;
+    width: 6ch;
+    height: 6ch;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto 1ch;
 }
 
 
