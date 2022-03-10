@@ -78,17 +78,21 @@
 
 .badge-trending {
     top: 3ch;
-    left: 7.5ch;
+    left: 7ch;
 }
 
 .badge-info-1 {
     top: 18ch;
-    left: 14ch;
+    left: 13.25ch;
 }
 
 .badge-info-2 {
-    top: 25.5ch;
-    left: 12ch;
+    top: 24.75ch;
+    left: 11.5ch;
+}
+
+.boxitem-heading .col {
+    flex-grow: 0;
 }
 
 /* lg */
@@ -111,6 +115,16 @@
 
 /* md */
 @media screen and (max-width: 768px) {
+    .badge-info-1 {
+        top: 18ch;
+        left: 12.25ch;
+    }
+    
+    .badge-info-2 {
+        top: 24.5ch;
+        left: 11.5ch;
+    }
+
     .daftarproduk-md{
         flex-wrap: nowrap;
         overflow-x: auto;
